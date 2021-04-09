@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\homecontroller;
+use App\Http\Controllers\visitorcontroller;
+use App\Http\Controllers\servicecontroller;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('Home');
-});
+Route::get('/',[homecontroller::class,'homeindex']);
+Route::get('/visitor',[visitorcontroller::class,'visitorindex']);
+Route::get('/service',[servicecontroller::class, 'serviceindex']);
+Route::get('/getservicedata',[servicecontroller::class, 'getServiceData']);

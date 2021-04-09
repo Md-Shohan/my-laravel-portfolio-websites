@@ -3,15 +3,65 @@
 	{
 		"selected_items":
 		[
+			[
+				"js",
+				"jsonData\t⌬ tabnine"
+			],
+			[
+				"id",
+				"id=\"\t⌬ tabnine"
+			],
+			[
+				"type",
+				"type=\"text/javascript\t⌬ tabnine"
+			],
+			[
+				"re",
+				"return view('\t⌬ tabnine"
+			],
+			[
+				"fore",
+				"foreach($\t⌬ tabnine"
+			],
+			[
+				"section",
+				"section('layout\t⌬ tabnine"
+			],
+			[
+				"view",
+				"view('Home'\t⌬ tabnine"
+			],
+			[
+				"fun",
+				"function homeindex(){\t⌬ tabnine"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "app/Http/Controllers/servicecontroller.php",
+			"settings":
+			{
+				"buffer_size": 316,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/Service.blade.php",
+			"settings":
+			{
+				"buffer_size": 601,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "resources/views/layout/app.blade.php",
 			"settings":
 			{
-				"buffer_size": 1798,
+				"buffer_size": 1840,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -20,29 +70,18 @@
 			"file": "routes/web.php",
 			"settings":
 			{
-				"buffer_size": 489,
+				"buffer_size": 820,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resources/views/Home.blade.php",
+			"file": "public/js/custom.js",
 			"settings":
 			{
-				"buffer_size": 23,
+				"buffer_size": 654,
 				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "Home.blade.php"
-			}
-		},
-		{
-			"file": "resources/views/layout/menu.blade.php",
-			"settings":
-			{
-				"buffer_size": 1702,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "menu.blade.php"
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -57,6 +96,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"teminu",
+				"Preferences: Terminus Command Palette"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"",
 				"A File Icon: Revert to a Freshly Installed State"
@@ -92,6 +139,9 @@
 	[
 		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin",
 		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/app",
+		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/app/Http",
+		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/app/Http/Controllers",
+		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/app/Models",
 		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/resources",
 		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/resources/views",
 		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/resources/views/layout",
@@ -99,7 +149,18 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/resources/views/layout/menu.blade.php",
 		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/resources/views/layout/app.blade.php",
+		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/resources/views/Visitor.blade.php",
+		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/resources/views/Service.blade.php",
+		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/routes/web.php",
+		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/app/Http/Controllers/servicecontroller.php",
+		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/app/Http/Controllers/visitorcontroller.php",
+		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/public/js/custom.js",
+		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/app/Models/visitormodel.php",
+		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/app/Http/Controllers/homecontroller.php",
+		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/.env",
+		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/resources/views/Home.blade.php",
 		"/C/Users/Asus/Desktop/my-laravel-portfolio-websites/admin/server.php"
 	],
 	"find":
@@ -135,24 +196,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "resources/views/layout/app.blade.php",
+					"file": "app/Http/Controllers/servicecontroller.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1798,
+						"buffer_size": 316,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								223,
+								237
 							]
 						],
 						"settings":
@@ -163,57 +224,28 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "routes/web.php",
+					"file": "resources/views/Service.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 489,
+						"buffer_size": 601,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								315,
-								315
+								574,
+								574
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "resources/views/Home.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 23,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23,
-								23
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Home.blade.php",
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -224,32 +256,89 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "resources/views/layout/menu.blade.php",
+					"buffer": 2,
+					"file": "resources/views/layout/app.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1702,
+						"buffer_size": 1840,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1815,
+								1821
 							]
 						],
 						"settings":
 						{
-							"auto_name": "menu.blade.php",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 820,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								815,
+								815
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/js/custom.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -261,7 +350,7 @@
 	},
 	"input":
 	{
-		"height": 41.0
+		"height": 42.0
 	},
 	"layout":
 	{
@@ -332,7 +421,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 317.0,
+	"side_bar_width": 252.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
