@@ -7,11 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class visitormodel extends Model
 {
-  
-
+    use HasFactory;
     public $table='visitor';
-    public $primaryKey='id';
-    public $incrementing=true;
-    public $keyType='int';
-    public  $timestamps=false;
+	public $primaryKey='id';
+	public $incrementing=true;
+	public $keyType='int';
+	public  $timestamps=false;
 }

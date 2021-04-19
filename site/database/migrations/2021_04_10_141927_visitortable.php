@@ -13,11 +13,11 @@ class Visitortable extends Migration
      */
     public function up()
     {
-        Schema::create('visitor', function(Blueprint $table){
+        Schema::create('visitor',function(Blueprint $table){
             $table->bigIncrements('id');
             $table->string('ip_address');
-            $table->string('visit_time');
-        });
+	    $table->string('visit_time');
+});
     }
 
     /**

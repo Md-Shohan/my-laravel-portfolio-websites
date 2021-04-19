@@ -24,6 +24,12 @@
                         <li> <a href="{{'/visitor'}}" ><span> <i class="fas fa-users"></i> </span><span class="hide-menu">Visitor</span></a></li>
 
                     	<li> <a href="{{'/service'}}" ><span> <i class="fas fa-globe"></i> </span><span class="hide-menu">Services</span></a></li>
+
+                        <li> <a href="{{'/courses'}}" ><span> <i class="fas fa-book-reader"></i> </span><span class="hide-menu">Courses</span></a></li>
+
+                        <li> <a href="{{'/project'}}" ><span> <i class="fab fa-free-code-camp"></i> </span><span class="hide-menu">Project</span></a></li>
+
+                        <li> <a href="{{'/contact'}}" ><span> <i class="fas fa-users"></i> </span><span class="hide-menu">Contact</span></a></li>
 					</ul>
                 </nav>
             </div>

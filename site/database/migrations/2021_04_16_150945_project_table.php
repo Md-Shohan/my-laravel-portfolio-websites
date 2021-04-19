@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class ServiceTable extends Migration
+class ProjectTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,14 @@ class ServiceTable extends Migration
      */
     public function up()
     {
-        Schema::create('service',function(Blueprint $table){
+        Schema::create('project',function(Blueprint $table){
             $table->bigIncrements('id');
-            $table->string('service_name');
-	        $table->string('service_des');
-            $table->string('service_img');
-    });
-}
+            $table->string('project_name');
+	        $table->string('project_des');
+            $table->string('project_img');
+            $table->string('project_link');
+        });
+    }
 
     /**
      * Reverse the migrations.
