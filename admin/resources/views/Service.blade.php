@@ -267,7 +267,7 @@ function ServiceUpdateDetails(detailsid) {
                 var jsonData = response.data;
                 $('#ServiceNameId').val(jsonData[0].service_name);
                 $('#ServiceDesId').val(jsonData[0].service_des);
-                $('#ServiceImageId').val(jsonData[0].service_name);
+                $('#ServiceImageId').val(jsonData[0].service_img);
             } else {
                 $('#ServiceEditLoader').addClass('d-none');
                 $('#ServiceEditWrong').removeClass('d-none');

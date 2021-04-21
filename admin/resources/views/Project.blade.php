@@ -265,7 +265,7 @@ function ProjectUpdateDetails(detailsid) {
 
 }
 
-// Each Service Update  Edit
+// Each Project Update  Edit
 function projectUpdate(projectId, projectName, projectDes, projectImg, projectLink) {
 
     if (projectName.length == 0) {
@@ -324,13 +324,13 @@ function projectUpdate(projectId, projectName, projectDes, projectImg, projectLi
 }
 
 
-//Add Course modal Table
+//Add Project modal Table
 $('#addNewBtnProjectId').click(function() {
 
     $('#addProjectModal').modal('show');
 });
 
-//Course Add Modal Save Btn
+//Project Add Modal Save Btn
 $('#ProjectAddConfirmBtn').click(function() {
     var ProjectName = $('#ProjectNameAddId').val();
     var ProjectDes = $('#ProjectDesAddId').val();
@@ -341,7 +341,7 @@ $('#ProjectAddConfirmBtn').click(function() {
 
 })
 
-// Course Add Method
+// Project Add Method
 
 function projectAdd(ProjectName, ProjectDes, ProjectImg, ProjectLink) {
 

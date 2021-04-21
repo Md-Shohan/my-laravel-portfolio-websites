@@ -30,6 +30,8 @@
                         <li> <a href="{{'/project'}}" ><span> <i class="fab fa-free-code-camp"></i> </span><span class="hide-menu">Project</span></a></li>
 
                         <li> <a href="{{'/contact'}}" ><span> <i class="fas fa-users"></i> </span><span class="hide-menu">Contact</span></a></li>
+
+                        <li> <a href="{{'/review'}}" ><span> <i class="fas fa-users"></i> </span><span class="hide-menu">Review</span></a></li>
 					</ul>
                 </nav>
             </div>

@@ -7,7 +7,7 @@
 @include('component.homecourse')
 @include('component.homeproject')
 @include('component.homecontact')
-
+@include('component.homereview')
 
 
 

@@ -61,7 +61,7 @@ class projectcontroller extends Controller
         }
     }
 
-     //Service Add 
+     //Project Add 
     function ProjectAdd(Request $req){
         $project_name = $req->input('project_name');
         $project_des = $req->input('project_des');
