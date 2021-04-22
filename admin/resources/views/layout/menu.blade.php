@@ -31,7 +31,7 @@
 
                         <li> <a href="{{'/contact'}}" ><span> <i class="fas fa-users"></i> </span><span class="hide-menu">Contact</span></a></li>
 
-                        <li> <a href="{{'/review'}}" ><span> <i class="fas fa-users"></i> </span><span class="hide-menu">Review</span></a></li>
+                        <li> <a href="{{'/review'}}" ><span> <i class="fas fa-comment"></i> </span><span class="hide-menu">Review</span></a></li>
 					</ul>
                 </nav>
             </div>

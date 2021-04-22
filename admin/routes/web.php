@@ -8,6 +8,7 @@ use App\Http\Controllers\coursescontroller;
 use App\Http\Controllers\projectcontroller;
 use App\Http\Controllers\contactcontroller;
 use App\Http\Controllers\reviewController;
+use App\Http\Controllers\loginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -64,3 +65,7 @@ Route::post('/reviewDelete', [reviewController::class,'reviewDelete']);
 Route::post('/ReviewDetails',[reviewController::class,'getReviewDetails']);
 Route::post('/ReviewUpdate',[reviewController::class,'reviewUpdate']);
 Route::post('/ReviewAdd',[reviewController::class,'reviewAdd']);
+
+//Admin Login 
+Route::get('/login',[loginController::class,'loginPage']);
+Route::post('/onLogin',[loginController::class,'onLogin']);

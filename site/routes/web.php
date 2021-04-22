@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\homeController;
+use App\Http\Controllers\projectController;
+use App\Http\Controllers\courseController;
+use App\Http\Controllers\contactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +18,8 @@ use App\Http\Controllers\homeController;
 */
 
 Route::get('/',[homeController::class, 'homeindex']);
+Route::get('/project',[projectController::class, 'projectPage']);
+Route::get('/course',[courseController::class, 'coursePage']);
+Route::get('/contact',[contactController::class, 'contactPage']);
 Route::post('/contact',[homeController::class, 'ContactSend']);
+
